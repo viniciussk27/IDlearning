@@ -1,0 +1,29 @@
+
+#learn {
+  margin-left: 110px;
+}
+/* Language: css */
+.container {
+  background-color:
+  #8A2BE2;
+  color: white;
+  text-align: relative;
+  padding: 10px 100;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  z-index: 1000;
+   }
+.x{
+  margin-left: 2%;
+  top: 8px;
+  position: absolute;
+  
+}
+.foto {
+  margin-top: 10px;
+  width: 340px;
+  height: 200px
+}
+p{margin-bottom: 0px;
+}
