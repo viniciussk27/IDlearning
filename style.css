@@ -1,0 +1,30 @@
+
+#learn {
+ text-align: center;
+}
+/* Language: css */
+.container {
+  background-color:
+  #8A2BE2;
+  color: white;
+  padding: 100% -50%;
+  position: sticky;
+  top: 5px;
+  width: 100%;
+  z-index: 1000;
+   }
+.x{
+  margin-left: 2%;
+  top: 20%;
+  position: absolute;
+  font-size: 40%;
+}
+.foto {
+  position: relative;
+  margin-top: 10px;
+  margin: auto;
+  width: 100%;
+  height: 50%;
+}
+p{margin-bottom: 0px;
+}
