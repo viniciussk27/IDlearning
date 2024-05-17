@@ -10,14 +10,22 @@
   padding: 100% -50%;
   position: sticky;
   top: 5px;
+  bottom:5px;
   width: 100%;
+  height: 100%;
   z-index: 1000;
+  text-align: initial;
    }
 .x{
   margin-left: 2%;
+  margin-right:2%;
   top: 20%;
   position: absolute;
-  font-size: 40%;
+  width:40px;
+  height:25px;
+  background-color: #eabfff;
+  border-color: #ba55ff;
+  
 }
 .foto {
   position: relative;
@@ -25,6 +33,18 @@
   margin: auto;
   width: 100%;
   height: 50%;
+  
 }
 p{margin-bottom: 0px;
+}
+
+.menu{  
+    font-size:20%;
+    width:40%;
+    height:50%;
+    
+}
+
+#artigo{
+background: #fff4d5;
 }
