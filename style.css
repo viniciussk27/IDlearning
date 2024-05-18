@@ -1,4 +1,4 @@
-
+body{background:rgb(255, 255, 255)}
 #learn {
  text-align: center;
 }
@@ -36,6 +36,7 @@
   
 }
 p{margin-bottom: 0px;
+  padding-left:2%;
 }
 
 .menu{  
@@ -46,5 +47,15 @@ p{margin-bottom: 0px;
 }
 
 #artigo{
-background: #fff4d5;
+  text-align: center;
+background: #e1d8df;
+padding-block: 10px;
+}
+.next {
+  position: relative;
+  border: #e9d019;
+ 
+  background-color: rgb(120, 92, 168);
+
+ 
 }
