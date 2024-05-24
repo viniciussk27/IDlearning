@@ -1,9 +1,9 @@
-body{background-color:#000000}
+body{background-color:#ffffff}
 
 body,ul{margin: 0px;
-padding: 0px;}*/
+padding: 0px;}
 
-a{color:black;
+a {color: #ffffff;
 text-decoration: none;
 font-family: sans-serif;}
 
@@ -13,8 +13,9 @@ a:hover{
 
 #learn {
 padding: 5px;
+margin-left:5px;
  text-align: center;
- color:#00ffd5;
+ color:#00ff18;
  align-items: center;
 }
 
@@ -23,27 +24,31 @@ display: flex;
 list-style: none;
 gap: .5rem;
 padding: 1rem;
+align-items: center;
 }
 
 #menu a{
-      padding: 5px;
+      padding: 5px 50px;
+      
 }
+
 
 #salada{
-display: none;
-
-      
+display:flex;
+padding: .4rem .4rem;
+font-size: 1rem;
+margin-right: 10px;
+border: 20px;
+background:;
+cursor: pointer;
+border-radius: 20%;
 }
-
-      
-
-
-
+     
 #container {
 justify-content: space-between;
 box-sizing: border-box;
   background-color:
-  #ce00ff;
+  #000000;
   /*background-color:#8A2BE2;*/
   display:flex;/*serve para alinhar os itens*/
   color: white;
@@ -85,28 +90,77 @@ padding-block: 10px
     top:5px;
 }
 
-footer{background: #ce00ff;
+footer{background:#000000;
 text-align:center;}
 
 @media(max-width:600px){
 
-#salada{display: block;
+#salada{display: flex;
+
+
 }
 
 #menu{
-display: none;
+display: block;
 right: 0px;
 position: fixed;
-z-index: 10000;
-background: #d5bfff;
-height: 100%;
-width: 100%;
-margin-top: 15%;
+z-index: 1000;
+background: rgba(0,0,0,.7);
+height: 0px;
+transition: .3s;
+width: 150px;
+margin-top: 13%;
+visibility: hidden;
+overflow-y: hidden;
 }
 
 @media(min-width:600px){
 #menu{display: block;}
+      #salada{display: none;}
+}
+
+#nav.active #menu{
+height: 50%;
+visibility: visible;
+overflow-y: auto;
+}
+
+#txt{color:#ffffff;}
+
+ul li{align-items: center;
+margin-bottom: 20px;
+border: 2px solid;}
+
+#x{
+border-top: 2.5px solid;
+  width: 20px;
+}
+
+#x::after, #x::before{
+content: '';
+display: block;
+ width: 20px;
+ height: 2.5px;
+ background: currentColor;
+ margin-top: 5px;
+ transition: .3s;
+ position: relative;
+}
+
+#nav.active #x{
+border-top-color: transparent;
+}
+#nav.active #x::before{
+      transform: rotate(135deg);
+}
+#nav.active #x::after{
+transform: rotate(-135deg);
+top: -7px;
       
 }
-#nav.active #menu{display: block;}
+      
+
+
+
+
 
